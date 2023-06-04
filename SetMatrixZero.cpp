@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 void setZeros(vector<vector<int>> &matrix)
 {
 	int row = matrix.size();
@@ -19,4 +21,9 @@ void setZeros(vector<vector<int>> &matrix)
                 }
             }
         }
+}
+int main()  
+{
+    vector<vector<int>> matrix;
+    setZeros( matrix);
 }

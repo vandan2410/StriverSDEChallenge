@@ -1,4 +1,5 @@
 #include <bits/stdc++.h> 
+using namespace std;
 bool cmd(pair<int,int> p1 , pair<int,int> p2)
 {
     if(p1.second==p2.second)
